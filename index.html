@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shinobi</title>
+  <link rel="stylesheet" href="csst/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body>
+  <!------------Start Nav --------->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a href="#" class="navbar-brand">Shinobi</a>
+      <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav">
+          <a href="#" class="nav-item nav-link active">Home</a>
+          <a href="#" class="nav-item nav-link">About</a>
+          <a href="contact.html" class="nav-item nav-link">Contact</a>
+        </div>
+      </div>
+  </nav>
+  </div>
+  <!----------End of Nav -------->
+  <!---------Start of Maincontainer------>
+<div class="main-container">
+  
+  <div class="left">
+    <img src="uchi.png" id="sha" alt="png">
+    <h1>UCHIHA</h1>
+    <p id="Ziv">The Uchiha are descendants of Indra Ōtsutsuki, the elder son of Hagoromo Ōtsutsuki. Through Indra, the Uchiha inherited Hagoromo's "eyes", granting them powerful spiritual energy and chakra</p>
+    
+      <button type="button" onclick="changeStyle()" class="btn btn-outline-dark btn-sm">Change Color</button>
+    </div>
+    <div class="right">
+    <img src="uzu.png" alt="png">
+    <br><br>
+    <h1>UZUMAKI</h1>
+    <p id="Viz">The Uzumaki Clan (うずまき一族, Uzumaki Ichizoku) was formerly a prominent clan in Uzushiogakure. Its members are renown for having bright, red hair, possessing incredibly strong life-forces and chakra</p>
+ <button type="button" onclick="change()" class="btn btn-outline-danger btn-sm">Change Color</button>
+  </div>
+</div>
+<!------------End of MainContainer------->
+<!------------Animation Start--------->
+<div class="sasori">
+  <span style="--i:1">D</span>
+  <span style="--i:2">E</span>
+  <span style="--i:3">V</span>
+  <span></span>
+  <span style="--i:4">B</span>
+  <span style="--i:5">Y</span>
+  <span style="--i:5">:</span>
+  <span></span>
+  <span style="color:red">
+  <span style="--i:1">S</span>
+  <span style="--i:2">A</span>
+  <span style="--i:3">S</span>
+  <span style="--i:4">O</span>
+  <span style="--i:5">R</span>
+  <span style="--i:6">I</span>
+  <span></span>
+  <span></span>
+  <span style="--i:1">A</span>
+  <span style="--i:2">K</span>
+  <span style="--i:3">A</span>
+  <span style="--i:4">T</span>
+  <span style="--i:5">S</span>
+  <span style="--i:6">U</span>
+  <span style="--i:7">K</span>
+  <span style="--i:8">I</span>
+</div>
+</div>
+<!----------End of Animation-------->
+<!----------Start of Content-------->
+<div class="content border border-black p-3">
+  <div class="col-4">
+    <div class="card">
+      <div class="card-header" id="madx">Madara</div>
+      <img src="madara.png" id="carding" />
+      <div class="card-body">
+        <p class="card-txt" id="hue">Madara Uchiha</p>
+             <button type="buton" onclick="mad() " class="btn btn-outline-danger btn-sm">More</button>
+      </div>
+    </div>
+  </div>
+    <div class="col-4">
+    <div class="card">
+      <div class="card-header" id="hihiz">Itachi</div> 
+      <img src="itachi.png" id="hihi" />
+      <div class="card-body">
+        <p class="card-txt" id="ngez">Itachi Uchiha</p>
+     <button type="button" onclick="itc()" class="btn btn-outline-danger btn-sm">More</button>
+      </div>
+    </div>
+  </div>
+     <div class="col-4">
+    <div class="card">
+      <div class="card-header"id="sassi">Sasuke</div>
+      <img src="saskk.png" id="sass" />
+      <div class="card-body">
+        <p class="card-txt" id="kez">Sasuke Uchiha</p>
+             <button type="button" onclick="sask()"class="btn btn-outline-danger btn-sm">More</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!----------End of Content1------->
+<!----------start of Content2------->
+<div class="content border border-black p-3">
+  <div class="col-4">
+    <div class="card">
+      <div class="card-header" id="exx">Minato</div>
+      <img src="minato.png" id="zix" />
+      <div class="card-body">
+        <p class="card-txt" id="uz">Minato Namikaze</p>
+             <button type="button" onclick="minat()" class="btn btn-dark btn-sm">ReadMore</button>
+      </div>
+    </div>
+  </div>
+  <div class="col-4">
+    <div class="card">
+      <div class="card-header" id="sagx">Naruto</div>
+      <img src="naruto.png" id="sag" />
+      <div class="card-body">
+        <p class="card-txt" id="hex">Naruto Uzumaki </p>
+             <button type="button" onclick="zag()"class="btn btn-dark btn-sm">ReadMore</button>
+      </div>
+    </div>
+  </div>
+  <div class="col-4">
+    <div class="card">
+      <div class="card-header" id="ex">Kushina</div>
+      <img src="kushina.png" id="zi" />
+      <div class="card-body">
+        <p class="card-txt" id="huuz">Kushina Uzumaki</p>
+             <button type="button" onclick="kush()" class="btn btn-dark btn-sm">ReadMore</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--------End of Content2------>
+
+<!--------footer-------->
+
+<footer>
+<p>Dev by <span style="color:red">Sasori</span>&copy 2022</p>
+</footer>
+
+<!-------footer End ------>
+<!-----JavaScript ------>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+ <script src="z.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</body>
+
+</html>
